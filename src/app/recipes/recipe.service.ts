@@ -26,7 +26,7 @@ export class RecipeService{
         new Ingredient('sugar',1)],
     ),
     new Recipe(
-      'Com ga',
+      'Com suon',
       'Rice and chicken',
       'https://delightfulplate.com/wp-content/uploads/2019/06/Vietnamese-Chicken-Rice-Com-Ga-Hoi-An-1-1365x2048.jpg',
       [
