@@ -1,0 +1,47 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a href="#" class="navbar-brand">Recipe Book</a>
+    <div class="nav navbar-collapse" id="head-navbar">
+      <ul class="nav nav-pills">
+<!--        <li><a (click)="onSelect('recipe')">Recipes</a></li>-->
+<!--        <li><a (click)="onSelect('shoppingList')">Shopping List</a></li>-->
+        <li routerLinkActive="active"><a routerLink="/recipes">Recipes</a></li>
+        <li routerLinkActive="active"><a routerLink="/shopping-list">ShoppingList</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li
+          class="dropdown"
+          appDropdown>
+          <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown">Manage<span caret></span></a>
+          <ul class="dropdown-menu">
+            <li><a>Save Data</a></li>
+            <li><a>Fetch Data</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+
+</nav>
+
+
+
+
+<!--<nav class="navbar navbar-collapse" id="head-navbar">-->
+<!--  <ul class="nav navbar-nav">-->
+<!--    <li><a class="#" href="#">Home</a>-->
+<!--    </li>-->
+<!--    <li><a href="#">Page 1</a>-->
+<!--    </li>-->
+<!--    <li><a href="#">Page 2</a>-->
+<!--    </li>-->
+<!--  </ul>-->
+
+<!--  <ul class="nav navbar-nav pull-right">-->
+<!--    <li><a href="#">DE</a>-->
+<!--    </li>-->
+<!--    <li><a href="#">IT</a>-->
+<!--    </li>-->
+<!--  </ul>-->
+<!--</nav>-->
